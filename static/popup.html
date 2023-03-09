@@ -2,21 +2,27 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="styles/popup.css">
+    <link rel="stylesheet" href="styles/popup.css">
 </head>
 
 <body>
-  <div class="container">
-    <h1>Hello World!</h1>
+<div class="container">
+    <h1>Estudiantes Movedizos</h1>
 
-    <p>Edit <u>static/popup.html</u> to change this page!</p>
+    <div>
+        <h2>Activo: <b><span id="student"></span></b></h2>
+    </div>
 
-    <button id="go-to-options" class="button" style="margin-top: 2rem;">Open options page</button>
-  </div>
+    <button id="paste-abc-inscription-student" class="button" style="margin-top: 2rem;">Inscripción Estudiante [ABC]
+    </button>
+    <button id="paste-abc-inscription-id" class="button" style="margin-top: 2rem;">Inscripción ID [ABC]</button>
+</div>
 
-  <script src="popup.js"></script>
+<button id="delete-active" class="button" style="margin-top: 2rem;">🗑</button>
+
+<script src="popup.js"></script>
 </body>
 </html>
